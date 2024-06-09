@@ -1,7 +1,7 @@
 import java.util.Scanner; //Permite que o usuario escreva
 import java.util.Random; //Permite que o computador escolha um numero aleatorio
 
-public class Main{
+public class adivinheMe{
   public static void main(String[] args) {
     Random gerador = new Random ();
     int numeroAleatorio = gerador.nextInt(100);
